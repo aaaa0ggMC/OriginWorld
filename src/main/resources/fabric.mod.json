@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "theoriginworld",
+  "version": "${version}",
+
+  "name": "The Origin World",
+  "description": "Description",
+  "authors": [
+    "aaaa0ggmc"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/tow/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "aaaa0ggmc.theoriginworld.Main"
+    ]
+  },
+  "mixins": [
+    "theoriginworld.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric-api": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
